@@ -1,0 +1,26 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --red-color: #f00;
+  --fuchsia-color: #f0f;
+  --yellow-color: #ff0;
+  --aqua-color: #0ff;
+  --lime-color: #0f0;
+  --blue-color: #00f;
+  --text-color: #333;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("%PUBLIC_URL%/font/Roboto-Thin.ttf"),
+        url("%PUBLIC_URL%/font/Roboto-Light.ttf"),
+        url("%PUBLIC_URL%/font/Roboto-Regular.ttf"),
+        url("%PUBLIC_URL%/font/Roboto-Medium.ttf"),
+        url("%PUBLIC_URL%/font/Roboto-Bold.ttf");
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
